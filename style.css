@@ -1,0 +1,32 @@
+*{
+    background-color: gray;
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: violet;
+}
+
+#content > h1{
+    color: black;
+}
+
+p{
+    color: brown;
+}
+
+.Selector > h1,
+.Selector > h2,
+.Selector > h3,
+.Selector > h4{
+    color: blue;
+}
+
+.Selector >h1
+
+#One > h2{
+    color: yellow;
+}

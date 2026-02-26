@@ -1,8 +1,8 @@
 HTML - Hyper text markup language (HTML5)  ( <head> content </head> )
 
-~~> Self Closing Tags - Meta, hr, br, img, Input
+~~> Self Closing Tags - Meta, hr, br, img, Input, Link
 
-==> To Create a Webpag
+==> To Create a Webpage
 ==> It is not a Programming
 ==> It is a markup language
 ==> Every website can start with HTML
@@ -30,3 +30,30 @@ HTML - Hyper text markup language (HTML5)  ( <head> content </head> )
 11) Media Elements - Audio and Video
 
 12) Sematic Tags - Header, footer, nav and section, main
+
+13) Division tag - div
+
+CSS - Cascading Style Sheet
+
+==> To give the Style about the Tags
+==> Style means like Color size Font Spacing layout Animation and Responsive design
+==> Without CSS --> Webpage look like not Good
+==> Cascading - Styles are Applied Based on the Property
+
+1) Types Of CSS
+==> Inline CSS -  inside of the tag Give the Style and give some Propertys and value
+==> Internal CSS - You didnt touch the tag and open the style tag give some Propertys and values
+==> External CSS - You didnt touch the whole file open the new file(Style.css) and give the Propertys and values
+Inline > Internal > External
+
+2) CSS Syntax
+selector{
+    Property: value;
+}
+
+3) Types of Selector
+==> Elements Selector - (h1) (h2) (p)
+==> Class Selector - (.) - (Multiple) - No of times we can use the same calss name
+==> Id Selector - (#) - (Unique) - Only one time we can use the same Id name
+==> Universal Selector - (*) - to be apply the style to the entire site
+==> Group Selector - Class or id name contains different tags, in that different tags we wanna change the same style means we can go with Group selector
