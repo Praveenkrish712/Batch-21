@@ -1,10 +1,22 @@
 *{
-    background-color: gray;
+    /* background-color: gray; */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
-
+/* 
 h1{
     color: green;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 10px;
+    line-height: 100px;
+} */
 
 h2{
     color: violet;
@@ -15,7 +27,12 @@ h2{
 }
 
 p{
-    color: brown;
+    color: #7d08bc;
+    /* background-color: green; */
+    background-image: url(./Assets/5302821a530e455e25adfce2f1b01c52.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .Selector > h1,
@@ -23,10 +40,31 @@ p{
 .Selector > h3,
 .Selector > h4{
     color: blue;
+    padding: 10px;
 }
 
 .Selector >h1
 
 #One > h2{
     color: yellow;
+}
+
+.Box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* padding-left: 20px;
+    padding-top: 50px; */
+    padding: 20px 40px 60px 80px;
+    /* border-bottom: 10px solid black;
+    border-top: 20px solid green; */
+    border: 20px solid black;
+    /* margin-top: 100px;
+    margin-left: 150px; */
+    margin: 30px 50px 70px 90px;
+    border-radius: 50px;
+}
+
+.name{
+    padding-right: 50px;
 }
