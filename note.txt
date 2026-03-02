@@ -85,3 +85,10 @@ selector{
 ==> Margin - we wannt to space around the Border     
 
 value - Px, rem,%, m,cm, vh, vw
+
+7) Position - Moving one place to another place
+==> Static (Default)
+==> Relative - using position set the value like top,bottom,left and right
+==> Absolute - Absolute can search the Non-stactic parent, if it there means it will act as a same Relative, otherwise it will search the anothe parent......., no means go with root(body) of the website
+==> Fixed - to be fixed of the place
+==> Stickly - using top:0 it will reach the limit it will act as a same fixed (Z-index:100;)
