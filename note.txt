@@ -92,3 +92,16 @@ value - Px, rem,%, m,cm, vh, vw
 ==> Absolute - Absolute can search the Non-stactic parent, if it there means it will act as a same Relative, otherwise it will search the anothe parent......., no means go with root(body) of the website
 ==> Fixed - to be fixed of the place
 ==> Stickly - using top:0 it will reach the limit it will act as a same fixed (Z-index:100;)
+
+8) display - Flex and Grid
+  Flex - One Dimensional layout system (Row or column)
+  Grid - Two Dimensional layout system (Row and column)
+i - using display: flex; (align column into row)
+ii - Flex Direction - row, row-reverse, column, column-reverse
+iii - Justify content (X) - start, center, end, space-around, space-evenly, space-between
+iv - Align items (set the height) (Y) - start, center, end 
+v - gap (to be assign with values) value- px,m,cm,rem,%.vh,vw
+vi - flex-wrap - nowrap, wrap, wrap-reverse
+vii - Align-content (Y) (Set the height) (Flex-wrap is enable) - start, center, end, space-around, space-evenly, space-between
+viii - Flex (on items) - Flex:1 
+viv - order - change the visual order of the Property
