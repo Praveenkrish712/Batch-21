@@ -105,3 +105,37 @@ vi - flex-wrap - nowrap, wrap, wrap-reverse
 vii - Align-content (Y) (Set the height) (Flex-wrap is enable) - start, center, end, space-around, space-evenly, space-between
 viii - Flex (on items) - Flex:1 
 viv - order - change the visual order of the Property
+
+9) display - Grid
+i - Using display: Grid (No change)
+ii - Grid-templete-column: 30% 30% 30%;
+                         : 200px 300px 400px;
+                         : 300px 400px auto;
+                         : 1fr 1fr 1fr;
+                         : repeat(3,300px);
+                         : minmax(200px,1fr) 1fr 1fr;
+                         : repeat(3,minmax(200px,1fr));
+
+iii - grid-template-rows: 200px 400px 200px;  
+                        : 300px 400px auto;
+                         : 1fr 1fr 1fr;
+                         : repeat(3,300px);
+                         : minmax(200px,1fr) 1fr 1fr;
+                         : repeat(3,minmax(200px,1fr));   
+                         : 30% 30% 30%;  
+iv - gap (to be assign with values) value- px,m,cm,rem,%.vh,vw
+
+v - grid-column-start: 1; (Box start value)
+    grid-column-end: 4;   (box End value)   
+    grid-column: 1/3; (starting value/ending value)   
+    grid-column: span 2; (2 box size is merging)             
+
+vi - grid-row: span 3;
+
+vii -  grid-template-areas: 
+                        : "a a a a"
+                        : "z m m sb2"
+                        : "o o o o" ; (like mindmap) (only depends upon the column)
+
+vii - grid-areas : a; (name of the areas) 
+                    
