@@ -137,5 +137,31 @@ vii -  grid-template-areas:
                         : "z m m sb2"
                         : "o o o o" ; (like mindmap) (only depends upon the column)
 
-vii - grid-areas : a; (name of the areas) 
-                    
+vii - grid-areas : a; (name of the areas)
+
+10) Transition and Animation
+==> Transition - Whenever we affect or hover the thing some action will do 
+==> Animation - Whenever the site will reload or refresh some action will do
+
+~~~> Transition 
+             transition-duration: 3s; (It action time)
+             transition-property: all;
+             transition-timing-function: ease;
+                                       : ease-in;
+                                       : ease-outer;
+                                       : linear;
+             transition-delay: 5s;
+
+==> transform - rotate(45deg), ScaleX(2) translateX(100px)
+                          
+~~~> Animation - set the Animation name and using @Keyframes and set the name then Using from to OR 25%,50%,75%,100%
+
+11) Media queries OR responsive design
+==> apply styles besed on the device conditions screen size, resolution, device type
+==> Device type (mobile, tab, desktop/lap)
+==> its helps to size of the every device width
+==> @Media and screen and using Max-width
+
+mobile - 320px to 600px
+tablet - 601px to 800px
+lap/desktop - Above 801px

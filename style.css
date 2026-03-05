@@ -1,10 +1,11 @@
-*{
+* {
     /* background-color: gray; */
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
+
 /* 
 h1{
     color: green;
@@ -18,11 +19,11 @@ h1{
     line-height: 100px;
 } */
 
-h2{
+/* h2 {
     color: violet;
-}
+} */
 
-#content > h1{
+#content>h1 {
     color: black;
 }
 
@@ -35,21 +36,19 @@ h2{
     background-position: center;
 } */
 
-.Selector > h1,
-.Selector > h2,
-.Selector > h3,
-.Selector > h4{
+.Selector>h1,
+.Selector>h2,
+.Selector>h3,
+.Selector>h4 {
     color: blue;
     padding: 10px;
 }
 
-.Selector >h1
-
-#One > h2{
+.Selector>h1 #One>h2 {
     color: yellow;
 }
 
-.Box{
+.Box {
     width: 200px;
     height: 200px;
     background-color: red;
@@ -65,21 +64,21 @@ h2{
     border-radius: 50px;
 }
 
-.name{
+.name {
     padding-right: 50px;
 }
 
-.bluebox{
+.bluebox {
     width: 300px;
     height: 300px;
     background-color: blue;
     margin-top: 50px;
-    position: sticky; 
+    position: sticky;
     top: 0;
 }
 
 
-.redbox{
+.redbox {
     width: 100px;
     height: 100px;
     background-color: red;
@@ -88,7 +87,7 @@ h2{
     /* top: 20px; */
 }
 
-.box1{
+.box1 {
     width: 200px;
     height: 100px;
     background-color: red;
@@ -96,7 +95,7 @@ h2{
     order: 3;
 }
 
-.box2{
+.box2 {
     width: 200px;
     height: 100px;
     background-color: blue;
@@ -104,7 +103,7 @@ h2{
     /* order: 1; */
 }
 
-.box3{
+.box3 {
     width: 200px;
     height: 100px;
     background-color: green;
@@ -112,49 +111,49 @@ h2{
     /* order: 2; */
 }
 
-.box4{
+.box4 {
     width: 200px;
     height: 100px;
     background-color: yellow;
 }
 
-.box5{
+.box5 {
     width: 200px;
     height: 100px;
     background-color: salmon;
 }
 
-.box6{
+.box6 {
     width: 200px;
     height: 100px;
     background-color: darkblue;
 }
 
-.box7{
+.box7 {
     width: 200px;
     height: 100px;
     background-color: darkcyan;
 }
 
-.box8{
+.box8 {
     width: 200px;
     height: 100px;
     background-color: darkgoldenrod;
 }
 
-.box9{
+.box9 {
     width: 200px;
     height: 100px;
     background-color: darkgray;
 }
 
-.box10{
+.box10 {
     width: 200px;
     height: 100px;
     background-color: darkgreen;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -166,19 +165,19 @@ h2{
     /* flex-wrap: wrap; */
 }
 
-.para{
+.para {
     background-color: darkblue;
     color: white;
     padding: 20px;
 }
 
-.outer-container{
+.outer-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     /* grid-template-rows: 200px 400px 200px; */
 }
 
-.items{
+.items {
     background-color: green;
     color: white;
     font-size: 50px;
@@ -186,26 +185,26 @@ h2{
     justify-content: center;
 }
 
-.outerbox{
+.outerbox {
     display: grid;
     margin: 20px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* row-gap: 10px;
     column-gap: 20px; */
     gap: 20px;
 }
 
-.item1{
+.item1 {
     /* grid-column-start: 1;
     grid-column-end: 4; */
     grid-column: span 3;
 }
 
-.item2{
+.item2 {
     grid-row: span 3;
 }
 
-.layout > div{
+.layout>div {
     border: 1px solid black;
     background-color: #ebabac;
     font-size: 50px;
@@ -215,56 +214,166 @@ h2{
     align-items: center;
 }
 
-.layout{
+.layout {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 10vh 80vh 10vh;
-    grid-template-areas: 
-    "a a a a"
-    "z m m sb2"
-    "o o o o";
+    grid-template-areas:
+        "a a a a"
+        "z m m sb2"
+        "o o o o";
 }
 
-.header{
+.header {
     grid-area: a;
 }
 
-.footer{
+.footer {
     grid-area: o;
 }
 
-.sidebar1{
+.sidebar1 {
     grid-area: z;
 }
 
-.main{
+.main {
     grid-area: m;
 }
 
-.sidebar2{
+.sidebar2 {
     grid-area: sb2;
 }
 
-.flex1{
+.flex1 {
     width: 100px;
     height: 100px;
     background-color: green;
 }
 
-.flex2{
+.flex2 {
     width: 100px;
     height: 100px;
     background-color: blue;
 }
 
-.flex3{
+.flex3 {
     width: 100px;
     height: 100px;
     background-color: red;
 }
 
-.one{
+.one {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    /* transition-delay: 5s; */
+}
+
+.square:hover {
+    width: 600px;
+    background-color: red;
+    transform: translateX(100px);
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    border-radius: 50%;
+    animation-name: Circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes Circle {
+    25% {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        left: 5px;
+        top: 5px;
+    }
+
+    50% {
+        width: 300px;
+        height: 300px;
+        background-color: pink;
+        left: 10px;
+        top: 10px;
+    }
+
+    75% {
+        width: 400px;
+        height: 400px;
+        background-color: chartreuse;
+        left: 15px;
+        top: 15px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+        background-color: green;
+        left: 20px;
+        top: 20px;
+    }
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    padding: 15px 40px;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+}
+
+.nav-link > li{
+    margin-left: 20px;
+}
+
+.nav-link > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    /* background-color: red; */
+    fill: white;
+    display: none;
+}
+
+@media screen and (max-width:450px) {
+    .nav-link{
+        display: none;
+    }
+
+    svg{
+        display: block;
+    }
+    
 }
